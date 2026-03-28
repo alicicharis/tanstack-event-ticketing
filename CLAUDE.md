@@ -8,24 +8,10 @@ TanStack Start, React 19, TypeScript (strict), Prisma 7, Better Auth, Tailwind C
 
 ## Project Structure
 
-**IMPORTANT:** Proactively suggest updating project structure if you think that something has changed.
-
-```
-src/
-├── routes/          # File-based routes (TanStack Router)
-│   ├── __root.tsx   # Root layout
-│   ├── index.tsx    # Home page
-│   └── api/         # API routes
-├── components/      # Shared React components
-├── integrations/    # Third-party integration code (e.g. better-auth)
-├── lib/             # Utilities, auth config, helpers
-├── generated/       # Prisma generated client (do not edit)
-├── db.ts            # Database client
-├── router.tsx       # Router configuration
-└── styles.css       # Global styles
-prisma/
-└── schema.prisma    # Database schema
-```
+- `src/routes/` — File-based routes (TanStack Router)
+- `src/generated/` — Prisma generated client (do not edit)
+- `src/integrations/` — Third-party integration code (e.g. better-auth)
+- `prisma/schema.prisma` — Database schema
 
 ## Commands
 
