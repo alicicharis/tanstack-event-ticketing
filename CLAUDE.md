@@ -38,12 +38,12 @@ npm run check            # Fix lint + format issues
 
 Read these when working on the relevant topic:
 
-| Topic                     | File                               |
-| ------------------------- | ---------------------------------- |
-| Styling and UI components | `.claude/docs/styling.md`          |
+| Topic                     | File                                   |
+| ------------------------- | -------------------------------------- |
+| Styling and UI components | `.claude/references/styling.md`        |
 | Auth, roles, and balance  | `.claude/references/auth-and-roles.md` |
 
-**IMPORTANT:** If you notice that a reference doc is outdated, missing information, or that a new topic warrants its own reference file, proactively suggest updating or creating the relevant `.claude/docs/` file.
+**IMPORTANT:** If you notice that a reference doc is outdated, missing information, or that a new topic warrants its own reference file, proactively suggest updating or creating the relevant `.claude/references/` file.
 
 ## Error Handling
 

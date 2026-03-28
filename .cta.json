@@ -15,10 +15,5 @@
   "routerOnly": false,
   "version": 1,
   "framework": "react",
-  "chosenAddOns": [
-    "eslint",
-    "shadcn",
-    "better-auth",
-    "prisma"
-  ]
+  "chosenAddOns": ["eslint", "shadcn", "better-auth", "prisma"]
 }
